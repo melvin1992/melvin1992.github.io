@@ -1,2 +1,2 @@
 # Personal Website
-Display my basic information
+Basic HTML that will display my basic information.
