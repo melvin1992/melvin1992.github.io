@@ -1,2 +1,2 @@
-# Personal Website
-> Basic HTML that will display my basic information.
+# About Me
+> HTML page that will show some information about me.
