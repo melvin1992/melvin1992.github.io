@@ -8,23 +8,58 @@
 </head>
 
 <body>
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript">
+    <div class="highlight">
+        <pre><code class="language-javascript" data-lang="javascript">
 <!-- Personal Information -->
-<span class="kd">let</span> <span class="nx">personalInformation</span> <span class="o">=</span> <span class="p">{</span>
+<span class="kd">const</span> <span class="nx">personalInformation</span> <span class="o">=</span> <span class="p">{</span>
     <span class="nx">firstName</span><span class="o">:</span> <span class="s1">&#39;Melvin John&#39;</span><span class="p">,</span>
     <span class="nx">lastname</span><span class="o">:</span> <span class="s1">&#39;Bagsik&#39;</span><span class="p">,</span>
     <span class="nx">email</span><span class="o">:</span> <span class="s1">&#39;melvinjohn_bagsik@yahoo.com&#39;</span><span class="p">,</span>
 <span class="p">};</span>
 <!-- Profiles -->
-<span class="kd">let</span> <span class="nx">profiles</span> <span class="o">=</span> <span class="p">{</span>
+<span class="kd">const</span> <span class="nx">profiles</span> <span class="o">=</span> <span class="p">{</span>
     <span class="nx">linkedIn</span><span class="o">:</span> <span class="s1">&#39;https://www.linkedin.com/in/melvinjohnbagsik&#39;</span><span class="p">,</span>
     <span class="nx">github</span><span class="o">:</span> <span class="s1">&#39;https://github.com/melvin1992&#39;</span><span class="p">,</span>
 <span class="p">};</span>
 <!-- Work Experience -->
-<span class="kd">let</span> <span class="nx">workExperience</span> <span class="o">=</span> <span class="p">[</span>
+<span class="kd">const</span> <span class="nx">workExperience</span> <span class="o">=</span> <span class="p">[</span>
     <span class="p">{</span>
         <span class="nx">company</span><span class="o">:</span> <span class="s1">&#39;Author-It Software Corporation&#39;</span><span class="p">,</span>
-        <span class="nx">duration</span><span class="o">:</span> <span class="s1">&#39;May 2017 - Present&#39;</span><span class="p">,</span>
+        <span class="nx">duration</span><span class="o">:</span> <span class="s1">&#39;June 2019 - Present&#39;</span><span class="p">,</span>
+        <span class="nx">position</span><span class="o">:</span> <span class="s1">&#39;Software Engineer&#39;</span><span class="p">,</span>
+        <span class="nx">technologies</span><span class="o">:</span> <span class="s1">[
+            &#39;Node JS&#39;, 
+            &#39;TypeScript&#39;, 
+            &#39;Hapi JS&#39;, 
+            &#39;Joi JS&#39;, 
+            &#39;Postgres SQL&#39;, 
+            &#39;AWS&#39;,
+            &#39;Docker&#39;,
+        ]</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nx">company</span><span class="o">:</span> <span class="s1">&#39;Gallagher&#39;</span><span class="p">,</span>
+        <span class="nx">duration</span><span class="o">:</span> <span class="s1">&#39;July 2018 - May 2019&#39;</span><span class="p">,</span>
+        <span class="nx">position</span><span class="o">:</span> <span class="s1">&#39;Senior Software Engineer&#39;</span><span class="p">,</span>
+        <span class="nx">technologies</span><span class="o">:</span> <span class="s1">[
+            &#39;Node JS&#39;,  
+            &#39;Express JS&#39;, 
+            &#39;React/Redux&#39;, 
+            &#39;Postgres SQL&#39;, 
+            &#39;AWS&#39;,
+            &#39;Keycloak&#39;,
+            &#39;SocketIO&#39;,
+            &#39;Mocha JS&#39;,
+            &#39;Chai JS&#39;,
+            &#39;Sinon JS&#39;,
+            &#39;Elasticsearch&#39;, 
+            &#39;Kibana&#39;
+            &#39;Grafana&#39;
+        ]</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nx">company</span><span class="o">:</span> <span class="s1">&#39;Author-It Software Corporation&#39;</span><span class="p">,</span>
+        <span class="nx">duration</span><span class="o">:</span> <span class="s1">&#39;May 2017 - July 2018&#39;</span><span class="p">,</span>
         <span class="nx">position</span><span class="o">:</span> <span class="s1">&#39;Software Engineer&#39;</span><span class="p">,</span>
         <span class="nx">technologies</span><span class="o">:</span> <span class="s1">[
             &#39;Node JS&#39;, 
@@ -99,8 +134,9 @@
     <span class="p">},</span>
 <span class="p">];</span>
 <!-- Build me object -->
-<span class="kd">let</span> <span class="nx">me</span> <span class="o">=</span> </span><span class="nb">Object</span><span class="p">.</span><span class="nx">assign</span><span class="p">({},</span> <span class="nx">personalInformation</span><span class="p">,</span> <span class="nx">profiles</span><span class="p">,</span> <span class="nx">workExperience</span><span class="p">);</span>
-</code></pre></div>
+<span class="kd">const</span> <span class="nx">me</span> <span class="o">=</span> </span><span class="nb">Object</span><span class="p">.</span><span class="nx">assign</span><span class="p">({},</span> <span class="nx">personalInformation</span><span class="p">,</span> <span class="nx">profiles</span><span class="p">,</span> <span class="nx">workExperience</span><span class="p">);</span>
+</code></pre>
+    </div>
 </body>
 
-</html> 
+</html>
